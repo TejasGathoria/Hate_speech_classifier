@@ -19,8 +19,6 @@ model = AutoModelForSequenceClassification.from_pretrained(
 CHECKPOINT = 'distilbert-base-uncased'
 tokenizer = AutoTokenizer.from_pretrained(CHECKPOINT)
 
-
-
 # setup pipeline as a text classification with multilabel outputs
 hate_speech_multilabel_classifier = pipeline(
     task='text-classification',
