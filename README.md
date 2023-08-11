@@ -9,4 +9,6 @@ Task: The task is to classify text into multiple hate speech categories. The scr
 
 
 Dataset: The dataset used is called "Measuring Hate Speech" and is loaded using the datasets library from Hugging Face. The dataset contains columns related to different target attributes (e.g., target_race, target_religion, target_origin, etc.). The code preprocesses the dataset by removing unnecessary columns and then performs a multi-label classification task.
+
+
 Challanges : some data is biased, some categories have a higher samples then others, Finding the right hyperparameters for the model was quite difficult, the data set was a little old and cannot determine new gen words which are considered hate speech, 
